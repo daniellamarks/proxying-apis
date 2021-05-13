@@ -10,24 +10,13 @@ import reviewData from '../data/yelp-data';
 
 describe('Data Munging', () => {
 
-  const expectedLocations = [
+  const expectedLocations = 
     {
-
       'formatted_query': 'Avenida Calle 30, Barranquillita, Barranquilla, Atlántico, Caribe, 080004, Colombia',
       'latitude': '10.9809716',
       'longitude': '-74.7752992'
-    },
-    {
-      'formatted_query': 'Avenida Calle 30, Barranquilla, Atlántico, Caribe, 083001, Colombia',
-      'latitude': '10.9355691',
-      'longitude': '-74.7812725'
-    },
-    {
-      'formatted_query': 'Avenida Calle 30, Barranquillita, Barranquilla, Atlántico, Caribe, 080002, Colombia',
-      'latitude': '10.9860026',
-      'longitude': '-74.7763217'
-    }
-  ];
+    };
+  
 
   const expectedWeather = [
     {
